@@ -1,6 +1,7 @@
 package study.datajpa.entity;
 
 import lombok.*;
+import org.springframework.data.annotation.CreatedDate;
 
 import javax.persistence.*;
 import java.util.ArrayList;
