@@ -7,7 +7,7 @@ import study.datajpa.entity.Member;
 
 import java.util.List;
 
-public interface MemberRepository extends JpaRepository<Member, Long> {
+public interface MemberRepository extends JpaRepository<Member, Long>, MemberRepositoryCustom {
     /*
     * 구현체는 spring-data-jpa가 만듬
     * MemberRepository 인터페이스가 동작한 이유
